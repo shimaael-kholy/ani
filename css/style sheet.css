@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+body {
+  perspective: 600px;
+  position: relative;
+}
+
+.d1{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(241, 160, 241);
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation-name: change;
+  animation-duration: 1s ;
+  animation-iteration-count: 1 ;
+  animation-fill-mode: forwards;
+}
+@keyframes change {
+  0% {
+     background-color: rgb(241, 160, 241);
+     left: 0;}
+    
+  100% {
+     background-color: rgb(241, 160, 241);
+     left: 1600px;
+  }
+}
+.d2{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(241, 160, 241);
+  position: absolute;
+  right: 0;
+  top: 110px;
+  animation-name: change;
+  animation-duration: 1s ;
+  animation-iteration-count: 1 ;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+ 
+@keyframes change {
+  0% {
+     background-color: rgb(241, 160, 241);
+     right: 0;}
+    
+  100% {
+     background-color: rgb(241, 160, 241);
+     right: 1620px;
+  }
+} 
+.d3{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(241, 160, 241);
+  position: absolute;
+  left: 0;
+  top: 230px;
+  animation-name: change;
+  animation-duration: 1s ;
+  animation-iteration-count: 1 ;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+@keyframes change {
+  0% {
+     background-color: rgb(241, 160, 241);
+     left: 0;}
+    
+  100% {
+     background-color: rgb(241, 160, 241);
+     left: 1600px;
+  }
+}
+.d4{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(241, 160, 241);
+  position: absolute;
+  right: 0;
+  top: 350px;
+  animation-name: change;
+  animation-duration: 1s ;
+  animation-iteration-count: 1 ;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+@keyframes change {
+  0% {
+     background-color: rgb(241, 160, 241);
+     right: 0;}
+    
+  100% {
+     background-color: rgb(241, 160, 241);
+     right: 1600px;
+  }
+}
+.d5{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(241, 160, 241);
+  position: absolute;
+  left: 0;
+  top: 480px;
+  animation-name: change;
+  animation-duration: 1s ;
+  animation-iteration-count: 1 ;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+@keyframes change {
+  0% {
+     background-color: rgb(241, 160, 241);
+     left: 0;}
+    
+  100% {
+     background-color: rgb(241, 160, 241);
+     left: 1600px;
+  }
+}
+.d6{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(241, 160, 241);
+  position: absolute;
+  right: 0;
+  top: 610px;
+  animation-name: change;
+  animation-duration: 1s ;
+  animation-iteration-count: 1 ;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+}
+@keyframes change {
+  0% {
+     background-color: rgb(241, 160, 241);
+     right: 0;}
+    
+  100% {
+     background-color: rgb(241, 160, 241);
+     right:1600px;
+  }
+}
+.d7{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(241, 160, 241);
+  position: absolute;
+  left: 0;
+  top: 725px;
+  animation-name: change;
+  animation-duration: 1s ;
+  animation-iteration-count: 1 ;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+}
+@keyframes change {
+  0% {
+     background-color: rgb(241, 160, 241);
+     left: 0;}
+    
+  100% {
+     background-color: rgb(241, 160, 241);
+     left: 1600px;
+  }
+}
+.d8{
+  width: 200px;
+  height: 100px;
+  background-color: rgb(241, 160, 241);
+  position: absolute;
+  right: 0;
+  top: 840px;
+  animation-name: change;
+  animation-duration: 1s ;
+  animation-iteration-count: 1 ;
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
+}
+@keyframes change {
+  0% {
+     background-color: rgb(241, 160, 241);
+     right: 0;}
+    
+  100% {
+     background-color: rgb(241, 160, 241);
+     right: 1600px;
+  }
+}
